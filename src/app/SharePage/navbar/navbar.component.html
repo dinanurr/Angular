@@ -1,0 +1,58 @@
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #f2f8ff;">
+    <div class="container-fluid">
+        <img
+                width="40"
+                alt=""
+                src="../../../assets/img/Jawa tengah.png"
+            />
+        <a class="navbar-brand" routerLink="">Explore Jateng</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+                <a class="nav-link" routerLink=""  routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:true}" >Beranda</a>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Review
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                    <li><a class="dropdown-item" routerLink="destinasi" >Obyek Wisata</a></li>
+                    <li><a class="dropdown-item" routerLink="kuliner">Kuliner</a></li>
+                </ul>
+            </li>
+            <!-- <li class="nav-item">
+                <a class="nav-link" routerLink="destinasi" routerLinkActive="active-link">Review</a>
+            </li> -->
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Kategori
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                <li><a class="dropdown-item" routerLink="#" >Pantai</a></li>
+                <li><a class="dropdown-item" href="#">Pegunungan/Bukit</a></li>
+                <li><a class="dropdown-item" href="#">Taman</a></li>
+                <li><a class="dropdown-item" href="#">Museum</a></li>
+                <li><a class="dropdown-item" href="#">Pasar</a></li>
+                <li><a class="dropdown-item" href="#">Candi</a></li>
+            </ul>
+            </li>
+            <!-- <li class="nav-item">
+                <a class="nav-link" routerLink="kategori" routerLinkActive="active-link">Category</a>
+            </li> -->
+            <!-- <li class="nav-item">
+                <a class="nav-link" routerLink="akomodasi" routerLinkActive="active-link">Akomodasi</a>
+            </li> -->
+            <li class="nav-item">
+                <a class="nav-link" routerLink="about" routerLinkActive="active-link">Tentang Kami</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" routerLink="contact" routerLinkActive="active-link">Kontak</a>
+            </li>
+            </ul>
+        </div>
+    </div>
+</nav>

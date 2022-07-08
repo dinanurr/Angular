@@ -1,0 +1,21 @@
+article
+{
+    width: 100%;
+    height: auto;
+}
+article .akomodasi
+{
+    min-height: 570px;
+    padding-top: 1rem;
+    /* background-color: rgb(234, 245, 255); */
+}
+article .akomodasi h2
+{
+    text-align: 3rem;
+    font-weight: bold;
+    text-indent: 1rem;
+}
+article .akomodasi button
+{
+    font-weight: 500;
+}

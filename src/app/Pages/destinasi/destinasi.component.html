@@ -1,0 +1,19 @@
+<article>
+    <div class="content">
+        <div class="container">
+            <div class="row">
+                <ng-container *ngFor="let d of data">
+                    <div class="col-lg-3" >
+                        <div class="card mt-3 mb-3">
+                        <div class="detail">
+                            <img src="{{d.img}}" class="rounded-top" alt="">
+                            <h1>{{d.judul}}</h1>
+                            <button class="btn"><a [routerLink]="['/destinasi',d.id]" class="reviewmorebtn">Detail</a></button>
+                        </div>
+                        </div>
+                    </div>
+                </ng-container>
+            </div>
+        </div>
+    </div>
+</article>

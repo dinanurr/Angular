@@ -1,0 +1,124 @@
+<!-- Akomodasi -->
+<article>
+    <div class="akomodasi">
+        <div class="container">
+            <div class="akomodasi mt-5 mb-5">
+                <ng-container *ngIf="dataamd">
+                    <h2>{{dataamd [0].judul}}</h2>
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne1">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne1" aria-expanded="false" aria-controls="flush-collapseOne">
+                            {{dataamd [0].detail1}}
+                        </button>
+                        </h2>
+                        <div id="flush-collapseOne1" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Lokasi: we{{dataamd [0].alamat1}}</div>
+                        <div class="accordion-body">Harga: {{dataamd [0].idr1}}</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne2">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne2" aria-expanded="false" aria-controls="flush-collapseOne">
+                            {{dataamd [0].detail2}}
+                        </button>
+                        </h2>
+                        <div id="flush-collapseOne2" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Lokasi: {{dataamd [0].alamat2}}</div>
+                        <div class="accordion-body">Harga: {{dataamd [0].idr2}}</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne3">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne3" aria-expanded="false" aria-controls="flush-collapseOne">
+                            {{dataamd [0].detail3}}
+                        </button>
+                        </h2>
+                        <div id="flush-collapseOne3" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Lokasi: {{dataamd [0].alamat3}}</div>
+                        <div class="accordion-body">Harga: {{dataamd [0].idr3}}</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne4">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne4" aria-expanded="false" aria-controls="flush-collapseOne">
+                            {{dataamd [0].detail4}}
+                        </button>
+                        </h2>
+                        <div id="flush-collapseOne4" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Lokasi: {{dataamd [0].alamat4}}</div>
+                        <div class="accordion-body">Harga: {{dataamd [0].idr4}}</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne5">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne5" aria-expanded="false" aria-controls="flush-collapseOne">
+                            {{dataamd [0].detail5}}
+                        </button>
+                        </h2>
+                        <div id="flush-collapseOne5" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Lokasi: {{dataamd [0].alamat5}}</div>
+                        <div class="accordion-body">Harga: {{dataamd [0].idr5}}</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne6">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne6" aria-expanded="false" aria-controls="flush-collapseOne">
+                            {{dataamd [0].detail6}}
+                        </button>
+                        </h2>
+                        <div id="flush-collapseOne6" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Lokasi: {{dataamd [0].alamat6}}</div>
+                        <div class="accordion-body">Harga: {{dataamd [0].idr6}}</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne7">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne7" aria-expanded="false" aria-controls="flush-collapseOne">
+                            {{dataamd [0].detail7}}
+                        </button>
+                        </h2>
+                        <div id="flush-collapseOne7" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Lokasi: {{dataamd [0].alamat7}}</div>
+                        <div class="accordion-body">Harga: {{dataamd [0].idr7}}</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne8">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne8" aria-expanded="false" aria-controls="flush-collapseOne">
+                            {{dataamd [0].detail8}}
+                        </button>
+                        </h2>
+                        <div id="flush-collapseOne8" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Lokasi: {{dataamd [0].alamat8}}</div>
+                        <div class="accordion-body">Harga: {{dataamd [0].idr8}}</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne9">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne9" aria-expanded="false" aria-controls="flush-collapseOne">
+                            {{dataamd [0].detail9}}
+                        </button>
+                        </h2>
+                        <div id="flush-collapseOne9" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Lokasi: {{dataamd [0].alamat9}}</div>
+                        <div class="accordion-body">Harga: {{dataamd [0].idr9}}</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne10">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne10" aria-expanded="false" aria-controls="flush-collapseOne">
+                            {{dataamd [0].detail10}}
+                        </button>
+                        </h2>
+                        <div id="flush-collapseOne10" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Lokasi: {{dataamd [0].alamat10}}</div>
+                        <div class="accordion-body">Harga: {{dataamd [0].idr10}}</div>
+                        </div>
+                    </div>
+                </div>
+                </ng-container>
+            </div>
+        </div>
+    </div>
+</article>
