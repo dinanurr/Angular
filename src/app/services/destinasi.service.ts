@@ -276,52 +276,62 @@ export class DestinasiService {
     {
       id: 1,
       judul: "Es Dawet Ayu",
-      img: "../../../assets/foto/dawet.jpg"
+      img: "../../../assets/foto/dawet.jpg",
+      detail: "Dawet ayu adalah minuman khas dari Kabupaten Banjarnegara,minuman ini memiliki ciri tersendiri salah satunya aroma daun pandan yang kuat,dari daun pandan asli,sehingga membuat warna cendolnya berwarna hijau. Selain daun pandan, dawet ayu dibuat menggunakan tepung aren,dan sebagai pemanisnya biasanya menggunakan gula Jawa yang dicairkan.Jika akan menikmatinya cukup mudah dicari,dan harganyapun terjangkau mulai dari Rp 5000 - Rp 8000 per gelas"
     },
     {
       id: 2,
       judul: "Lumpia",
-      img: "../../../assets/foto/lumpia.jpg"
+      img: "../../../assets/foto/lumpia.jpg",
+      detail: "Lumpia menjadi makanan khas Semarang bermula dari perkawinan kuliner Tiongkok dan Jawa sejak ratusan lalu. Sajian bercitarasa manis nan gurih berisi rebung, ayam, udang dan digulung kulit tipis berbahan dasar terigu ini menghiasi di setiap sudut ibu kota Provinsi Jawa Tengah, Semarang.Jajanan ini sangat digemari karena banyak dijual di warung pinggir jalan dan rumah makan hingga menjadi oleh-oleh khas kota Semarang.Untuk harganya sendiri Rp 18.000 perBok"
     },
     {
       id: 6,
       judul: "Garang Asem",
-      img: "../../../assets/foto/gasem.jpg"
+      img: "../../../assets/foto/gasem.jpg",
+      detail: "Garang asem adalah masakan khas Pekalongan,Jawa Tengah yang rasanya asam segar karena menggunakan belimbing wuluh. Selain belimbing wuluh, ciri khas garang asem juga menggunakan santan dan cara membuatnya dibungkus daun pisang seperti botok. Namun, kalau sedang mengurangi santan kamu bisa tidak menggunakannya. Selain itu, kamu bisa membuat garang asem tanpa daun pisang. Sehingga cara masaknya bukan dikukus melainkan direbus.Untuk harga normal satu porsi garang asem telor sekitar Rp 23.000 dan garang asam biasa dibandrol Rp 18.000."
     },
     {
       id: 9,
       judul: "Skoteng",
-      img: "../../../assets/foto/skoteng.webp"
+      img: "../../../assets/foto/skoteng.webp",
+      detail: "Sekoteng adalah minuman khas Jawa Tengah yang dibuat dari air jahe yang biasa dihidangkan dalam keadaan panas dan dikonsumsi pada malam hari. Bahan yang biasanya ditambahkan ke dalam sekoteng adalah kacang hijau, kacang tanah, pacar cina, dan potongan roti tawar.Sekoteng sangat baik dikonsumsi oleh semua kalangan.Dengan seduhan jahe yang memiliki khasiat luar biasa bagi kesehatan,sekoteng bahkan bisa menetralkan tubuh setelah mengonsumsi gorengan."
     },
     {
       id: 4,
       judul: "Nasi Grombyang",
-      img: "../../../assets/foto/grombyang.jpg"
+      img: "../../../assets/foto/grombyang.jpg",
+      detail: "Nasi grombyang adalah sejenis nasi campur yang merupakan makanan khas dari masyarakat Pemalang,Jawa Tengah.Nama makanan ini berasal dari bentuk penyajiannya,yaitu antara isi dan kuah lebih banyak kuahnya sehingga kelihatan bergoyang-goyang.Ramuan nasi grombyang terdiri dari nasi, irisan daging sapi dan kuah,disajikan dalam mangkuk kecil.Ciri khas lainnya dari nasi grombyang terletak pada tempat jualannya yang berupa kuali besar,tempat nasi ditutupi dengan kain merah,diserta penerangan remang-remang lampu templok."
     },
     {
       id: 5,
       judul: "Mie Ongklok",
-      img: "../../../assets/foto/ongklok.jpg"
+      img: "../../../assets/foto/ongklok.jpg",
+      detail: "Mi (atau bakmi) ongklok adalah mi rebus khas kota Wonosobo dan sekitarnya. Mi rebus ini dibuat dengan menggunakan kol, potongan daun kucai, dan kuah kental berkanji yang disebut loh. Mi ini banyak dijajakan di berbagai warung, rumah makan, maupun dijajakan keliling memakai gerobak di kota tersebut.Menurut cerita masyrakat sekitar, sejarah mie ongklok berasal dari pencipta resep makanan lezat ini yang bernama Pak Muhadi. Yaitu seorang juru masak sebuah warung makan bakmi.Untuk harganya sendiri kisaran Rp 10.000 - Rp 15.000."
     },
     {
       id: 3,
       judul: "Mendoan",
-      img: "../../../assets/foto/mendoan.jpg"
+      img: "../../../assets/foto/mendoan.jpg",
+      detail: "Mendoan adalah makanan sejenis gorengan yang berasal dari Keresidenan Banyumas,Jawa Tengah.Kata mendoan dianggap berasal dari Bahasa Banyumasan,yaitu mendo yang berarti setengah matang atau lembek.Mendoan yang artinya memasak dengan minyak panas yang banyak dengan cepat sehingga masakan tidak benar-benar matang.Bahan makanan yang paling sering dibuat menjadi berbagai Mendoan adalah tempe dan tahu.Lebih enak jika membuat tempe mendoan dengan jenis tempe khusus untuk mendoan,bentuknya sangat tipis."
     },
     {
       id: 7,
       judul: "Serabi",
-      img: "../../../assets/foto/serabi.jpg"
+      img: "../../../assets/foto/serabi.jpg",
+      detail: "Serabi Solo adalah sebuah makanan ringan yang berasal dari Solo, Jawa Tengah.Makanan ini terbuat dari tepung beras yang dicampur dengan santan dan digoreng di atas arang mirip pancake (roti loyang) atau pancake.Srabi adalah jajanan khas dari Solo yang terbuat dari santan kelapa dicampur dengan sedikit tepung, yang menjadikannya bercitarasa gurih.Biasa juga diberi taburan berupa potongan pisang, nangka atau bahkan meses dan keju bila suka.Srabi yang terkenal berasal dari daerah Notokusuman,yang sering disingkat menjadi Notosuman(Srabi Notosuman)."
     },
     {
       id: 8,
       judul: "Wedang Ronde",
-      img: "../../../assets/foto/ronde.jpg"
+      img: "../../../assets/foto/ronde.jpg",
+      detail: "wedang ronde pertama kali mulai populer di daerah Jawa tengah seperti di kota Solo dan Salatiga. Sebutan wedang ronde berasal dari bahasa Jawa. Wedang berarti minuman dan ronde berarti adonan bulat yang biasa dibuat dari tepung ketan.Wedang ronde cocok dinikmati pada sore atau malam hari. Karena berbahan dasar jahe, wedang ronde memiliki cita rasa yang menghangatkan tenggorokan,dan untuk harganyapun terjangkau mulai dari Rp 5000 - Rp 10.000 perGelas"
     },
     {
       id: 10,
       judul: "Buntil",
-      img: "../../../assets/foto/buntil.jpg"
+      img: "../../../assets/foto/buntil.jpg",
+      detail: "Buntil adalah makanan tradisional khas jawa yang berbahan dasar parutan kelapa di campurkan dengan ikan teri beserta bumbu rempah istimewa dan dibungkus daun talas/pepaya pilihan yang kemudian direbus kedalam santan.Kendati terlihat sederhana, pembuatan buntil sebetulnya memakan waktu yang lumayan panjang. Sebelum dibungkus daun, isian buntil terlebih dahulu sudah dimasak. Setelah dimasak, buntil juga masih direbus lagi."
     },
   ]
 }

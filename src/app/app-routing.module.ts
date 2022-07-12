@@ -8,11 +8,13 @@ import { ReviewComponent } from './Pages/review/review.component';
 import { KategoriComponent } from './Pages/kategori/kategori.component';
 import { AkomodasiComponent } from './Pages/akomodasi/akomodasi.component';
 import { KulinerComponent } from './Pages/kuliner/kuliner.component';
+import { MakananComponent } from './Pages/makanan/makanan.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'destinasi', component: DestinasiComponent },
   { path: 'kuliner', component: KulinerComponent },
+  { path: 'kuliner/:id', component: MakananComponent },
   { path: 'destinasi/:id', component: ReviewComponent },
   { path: 'kategori', component: KategoriComponent },
   { path: 'akomodasi/:id', component: AkomodasiComponent },

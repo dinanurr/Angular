@@ -13,6 +13,7 @@ import { ReviewComponent } from './Pages/review/review.component';
 import { KategoriComponent } from './Pages/kategori/kategori.component';
 import { AkomodasiComponent } from './Pages/akomodasi/akomodasi.component';
 import { KulinerComponent } from './Pages/kuliner/kuliner.component';
+import { MakananComponent } from './Pages/makanan/makanan.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { KulinerComponent } from './Pages/kuliner/kuliner.component';
     ReviewComponent,
     KategoriComponent,
     AkomodasiComponent,
-    KulinerComponent
+    KulinerComponent,
+    MakananComponent
   ],
   imports: [
     BrowserModule,
