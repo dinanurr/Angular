@@ -1,7 +1,7 @@
 .banner
 {
     background-image: url('../../../assets/img/karimun.jpg');
-    height:620px;
+    /* height:620px; */
     background-position: center;
     background-size: cover;
     padding-top: 30rem;
