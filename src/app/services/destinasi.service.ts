@@ -277,7 +277,7 @@ export class DestinasiService {
       id: 1,
       judul: "Es Dawet Ayu",
       img: "../../../assets/foto/dawet.jpg",
-      detail: "Dawet ayu adalah minuman khas dari Kabupaten Banjarnegara,minuman ini memiliki ciri tersendiri salah satunya aroma daun pandan yang kuat, dari daun pandan asli,sehingga membuat warna cendolnya berwarna hijau. Selain daun pandan, dawet ayu dibuat menggunakan tepung aren,dan sebagai pemanisnya biasanya menggunakan gula Jawa yang dicairkan.Jika akan menikmatinya cukup mudah dicari,dan harganyapun terjangkau mulai dari Rp 5000 - Rp 8000 per gelas"
+      detail: "Dawet ayu adalah minuman khas dari Kabupaten Banjarnegara, minuman ini memiliki ciri tersendiri salah satunya aroma daun pandan yang kuat, dari daun pandan asli,sehingga membuat warna cendolnya berwarna hijau. Selain daun pandan, dawet ayu dibuat menggunakan tepung aren,dan sebagai pemanisnya biasanya menggunakan gula Jawa yang dicairkan.Jika akan menikmatinya cukup mudah dicari,dan harganyapun terjangkau mulai dari Rp 5000 - Rp 8000 per gelas"
     },
     {
       id: 2,
