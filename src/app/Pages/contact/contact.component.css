@@ -1,33 +1,21 @@
-.banner{
-    height:570px;
-    background-position: center;
-    background-size: cover;
-    padding-top: 3rem;
-}
 .container
 {
-    width: 32%;
+    padding-top: 3rem;
 }
-h1
+.container h1
 {
     font-size: 30px;
     font-weight: bold;
     color: rgb(17, 17, 17);
 }
-button
+.container  button
 {
     background-color: rgb(29, 141, 216);
     padding: 8px 18px;
     color: #fff;
 }
-button:hover
+.container  button:hover
 {
     background-color:  rgb(54, 158, 218);
     color: #fff;
 }
-/* .container
-{
-    padding-top: 5rem;
-    background-position: center;
-    background-size: cover;
-} */
