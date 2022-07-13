@@ -5,11 +5,11 @@
                 <ng-container *ngFor="let d of data">
                     <div class="col-lg-3" >
                         <div class="card mt-3 mb-3">
-                        <div class="detail">
+                        <!-- <div class="detail"> -->
                             <img src="{{d.img}}" class="rounded-top" alt="">
                             <h1>{{d.judul}}</h1>
-                            <button class="btn" [routerLink]="['/destinasi',d.id]" class="reviewmorebtn">Detail</button>
-                        </div>
+                            <button [routerLink]="['/destinasi',d.id]" class="reviewmorebtn">Detail</button>
+                        <!-- </div> -->
                         </div>
                     </div>
                 </ng-container>

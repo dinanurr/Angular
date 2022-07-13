@@ -19,7 +19,7 @@ const routes: Routes = [
   { path: 'kategori', component: KategoriComponent },
   { path: 'akomodasi/:id', component: AkomodasiComponent },
   { path: 'about', component: AbouteComponent },
-  { path: 'contact', component: ContactComponent }
+  { path: 'contact', component: ContactComponent },
 
 ];
 

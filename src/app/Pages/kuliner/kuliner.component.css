@@ -16,3 +16,7 @@ article .container button
 {
     background-color: #60a0d4;
 }
+article .container button:hover
+{
+    background-color: #65ade7;
+}
