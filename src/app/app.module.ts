@@ -10,10 +10,10 @@ import { FooterComponent } from './SharePage/footer/footer.component';
 import { NavbarComponent } from './SharePage/navbar/navbar.component';
 import { DestinasiComponent } from './Pages/destinasi/destinasi.component';
 import { ReviewComponent } from './Pages/review/review.component';
-import { KategoriComponent } from './Pages/kategori/kategori.component';
 import { AkomodasiComponent } from './Pages/akomodasi/akomodasi.component';
 import { KulinerComponent } from './Pages/kuliner/kuliner.component';
 import { MakananComponent } from './Pages/makanan/makanan.component';
+import { KategoriComponent } from './Pages/kategori/kategori.component';
 
 @NgModule({
   declarations: [
@@ -25,10 +25,10 @@ import { MakananComponent } from './Pages/makanan/makanan.component';
     NavbarComponent,
     DestinasiComponent,
     ReviewComponent,
-    KategoriComponent,
     AkomodasiComponent,
     KulinerComponent,
-    MakananComponent
+    MakananComponent,
+    KategoriComponent,
   ],
   imports: [
     BrowserModule,
