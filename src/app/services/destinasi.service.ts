@@ -245,33 +245,6 @@ export class DestinasiService {
     },
   ]
 
-  // categorydta = [
-  //   {
-  //     id: 1,
-  //     judul: "Pantai",
-  //   },
-  //   {
-  //     id: 2,
-  //     judul: "Gunung/Bukit",
-  //   },
-  //   {
-  //     id: 3,
-  //     judul: "Taman",
-  //   },
-  //   {
-  //     id: 4,
-  //     judul: "Museum",
-  //   },
-  //   {
-  //     id: 5,
-  //     judul: "Pasar",
-  //   },
-  //   {
-  //     id: 6,
-  //     judul: "Candi",
-  //   },
-  // ]
-
   kuliner = [
     {
       id: 1,
@@ -334,4 +307,103 @@ export class DestinasiService {
       detail: "Buntil adalah makanan tradisional khas jawa yang berbahan dasar parutan kelapa di campurkan dengan ikan teri beserta bumbu rempah istimewa dan dibungkus daun talas/pepaya pilihan yang kemudian direbus kedalam santan.Kendati terlihat sederhana, pembuatan buntil sebetulnya memakan waktu yang lumayan panjang. Sebelum dibungkus daun, isian buntil terlebih dahulu sudah dimasak. Setelah dimasak, buntil juga masih direbus lagi."
     },
   ]
+  pantai = [
+    {
+      id: 1,
+      judul: "Pantai Nampu, Wonogiri",
+      img1: "../../../assets/kategori/pantai/pn1.jpg",
+    },
+    {
+      id: 2,
+      judul: "Pantai Menganti, Kebumen",
+      img1: "../../../assets/kategori/pantai/mk1.jpg",
+    },
+    {
+      id: 3,
+      judul: "Pantai Widuri, Pemalang",
+      img1: "../../../assets/kategori/pantai/pw1.jpg",
+    },
+    {
+      id: 4,
+      judul: "Pantai Dewaruci Jatimalang, Purworejo",
+      img1: "../../../assets/kategori/pantai/pd1.jpg",
+    },
+    {
+      id: 5,
+      judul: "Pantai Alam Indah, Tegal",
+      img1: "../../../assets/kategori/pantai/pa1.jpg",
+    },
+    {
+      id: 6,
+      judul: "Pantai Marina, Semarang",
+      img1: "../../../assets/kategori/pantai/pm2.jpg"
+    },
+  ]
+  gunung = [
+    {
+      id: 1,
+      judul: " Gunung Sumbing, ",
+      img1: "../../../assets/kategori/gunung/sumbing.jpg",
+    },
+    {
+      id: 2,
+      judul: "Gunung Merbabu, ",
+      img1: "../../../assets/kategori/gunung/gm.jpg",
+    },
+    {
+      id: 3,
+      judul: "Gunung Sindoro, ",
+      img1: "../../../assets/kategori/gunung/gs.jpg",
+    },
+    {
+      id: 4,
+      judul: "Gunung  Andong, ",
+      img1: "../../../assets/kategori/gunung/ga.jpg",
+    },
+    {
+      id: 5,
+      judul: "Gunung Prau, ",
+      img1: "../../../assets/kategori/gunung/gp.jpg",
+    },
+    {
+      id: 6,
+      judul: "Gunung Lawu, ",
+      img1: "../../../assets/kategori/gunung/gl.jpg"
+    },
+  ]
+
+
+  candi = [
+    {
+      id: 1,
+      judul: "Candi Borobudur",
+      img1: "../../../assets/kategori/candi/cb.jpg",
+    },
+    {
+      id: 2,
+      judul: "Candi Mendut",
+      img1: "../../../assets/kategori/candi/cm.jpg",
+    },
+    {
+      id: 3,
+      judul: "Candi Plaosan",
+      img1: "../../../assets/kategori/candi/cp.jpg",
+    },
+    {
+      id: 4,
+      judul: "Candi Prambanan",
+      img1: "../../../assets/kategori/candi/cpr.jpg",
+    },
+    {
+      id: 5,
+      judul: "Candi Sewu",
+      img1: "../../../assets/kategori/candi/cs.jpg",
+    },
+    {
+      id: 6,
+      judul: "Candi Arjuna",
+      img1: "../../../assets/kategori/candi/ca.jpg"
+    },
+  ]
+
 }

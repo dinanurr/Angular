@@ -1,0 +1,18 @@
+<article>
+<div class="kategori">
+    <div class="container mt-5">  
+        <div class="row">
+            <ng-container *ngFor="let p of pantai">
+                <div class="col-lg-3" >
+                    <div class="card mt-4 mb-3">
+                        <img src="{{p.img1}}" class="rounded-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">{{p.judul}}</p>
+                        </div>
+                    </div>
+                </div>
+            </ng-container>
+        </div>
+    </div>
+</div>
+</article>

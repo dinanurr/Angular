@@ -14,6 +14,9 @@ import { AkomodasiComponent } from './Pages/akomodasi/akomodasi.component';
 import { KulinerComponent } from './Pages/kuliner/kuliner.component';
 import { MakananComponent } from './Pages/makanan/makanan.component';
 import { KategoriComponent } from './Pages/kategori/kategori.component';
+import { PantaiComponent } from './Pages/pantai/pantai.component';
+import { CandiComponent } from './Pages/candi/candi.component';
+import { GunungComponent } from './Pages/gunung/gunung.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +32,9 @@ import { KategoriComponent } from './Pages/kategori/kategori.component';
     KulinerComponent,
     MakananComponent,
     KategoriComponent,
+    PantaiComponent,
+    CandiComponent,
+    GunungComponent,
   ],
   imports: [
     BrowserModule,
