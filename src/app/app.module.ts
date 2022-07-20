@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './Pages/home/home.component';
@@ -17,6 +17,8 @@ import { KategoriComponent } from './Pages/kategori/kategori.component';
 import { PantaiComponent } from './Pages/pantai/pantai.component';
 import { CandiComponent } from './Pages/candi/candi.component';
 import { GunungComponent } from './Pages/gunung/gunung.component';
+import { FilterPipe } from './shared/filter.pipe';
+
 
 @NgModule({
   declarations: [
@@ -35,10 +37,13 @@ import { GunungComponent } from './Pages/gunung/gunung.component';
     PantaiComponent,
     CandiComponent,
     GunungComponent,
+    FilterPipe,
+
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

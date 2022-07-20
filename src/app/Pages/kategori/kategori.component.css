@@ -2,3 +2,13 @@ article
 {
     padding-top: 5rem;
 }
+article .container img
+{
+    height: 200px;
+    width: auto;
+}
+article .container p
+{
+    font-weight: bold;
+    font-size: 20px;
+}

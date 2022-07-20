@@ -1,10 +1,13 @@
 import { AUTO_STYLE } from '@angular/animations';
 import { Injectable } from '@angular/core';
+import { BehaviorSubject } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
 })
 export class DestinasiService {
+
+  public search = new BehaviorSubject<string>("");
 
   constructor() { }
 
@@ -403,6 +406,117 @@ export class DestinasiService {
       id: 6,
       judul: "Candi Arjuna",
       img1: "../../../assets/kategori/candi/ca.jpg"
+    },
+  ]
+
+  kategori = [
+    {
+      id: 1,
+      judul: "Pantai Nampu, Wonogiri",
+      img: "../../../assets/kategori/pantai/pn1.jpg",
+      kategori: "pantai"
+    },
+    {
+      id: 2,
+      judul: "Pantai Menganti, Kebumen",
+      img: "../../../assets/kategori/pantai/mk1.jpg",
+      kategori: "pantai"
+    },
+    {
+      id: 3,
+      judul: "Pantai Widuri, Pemalang",
+      img: "../../../assets/kategori/pantai/pw1.jpg",
+      kategori: "pantai"
+    },
+    {
+      id: 4,
+      judul: "Pantai Dewaruci Jatimalang, Purworejo",
+      img: "../../../assets/kategori/pantai/pd1.jpg",
+      kategori: "pantai"
+    },
+    {
+      id: 5,
+      judul: "Pantai Alam Indah, Tegal",
+      img: "../../../assets/kategori/pantai/pa1.jpg",
+      kategori: "pantai"
+    },
+    {
+      id: 6,
+      judul: "Pantai Marina, Semarang",
+      img: "../../../assets/kategori/pantai/pm2.jpg",
+      kategori: "pantai"
+    },
+    {
+      id: 7,
+      judul: " Gunung Sumbing, ",
+      img: "../../../assets/kategori/gunung/sumbing.jpg",
+      kategori: "gunung"
+    },
+    {
+      id: 8,
+      judul: "Gunung Merbabu, ",
+      img: "../../../assets/kategori/gunung/gm.jpg",
+      kategori: "gunung"
+    },
+    {
+      id: 9,
+      judul: "Gunung Sindoro, ",
+      img: "../../../assets/kategori/gunung/gs.jpg",
+      kategori: "gunung"
+    },
+    {
+      id: 10,
+      judul: "Gunung  Andong, ",
+      img: "../../../assets/kategori/gunung/ga.jpg",
+      kategori: "gunung"
+    },
+    {
+      id: 11,
+      judul: "Gunung Prau, ",
+      img: "../../../assets/kategori/gunung/gp.jpg",
+      kategori: "gunung"
+    },
+    {
+      id: 12,
+      judul: "Gunung Lawu, ",
+      img: "../../../assets/kategori/gunung/gl.jpg",
+      kategori: "gunung"
+    },
+    {
+      id: 13,
+      judul: "Candi Borobudur",
+      img: "../../../assets/kategori/candi/cb.jpg",
+      kategori: "candi"
+    },
+    {
+      id: 14,
+      judul: "Candi Mendut",
+      img: "../../../assets/kategori/candi/cm.jpg",
+      kategori: "candi"
+    },
+    {
+      id: 15,
+      judul: "Candi Plaosan",
+      img: "../../../assets/kategori/candi/cp.jpg",
+      kategori: "candi"
+    },
+    {
+      id: 16,
+      judul: "Candi Prambanan",
+      img: "../../../assets/kategori/candi/cpr.jpg",
+      kategori: "candi"
+    },
+    {
+      id: 17,
+      judul: "Candi Sewu",
+      img: "../../../assets/kategori/candi/cs.jpg",
+      kategori: "candi"
+    },
+    {
+      id: 18,
+      judul: "Candi Arjuna",
+      img: "../../../assets/kategori/candi/ca.jpg",
+      kategori: "candi"
     },
   ]
 
