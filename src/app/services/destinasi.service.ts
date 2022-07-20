@@ -345,32 +345,32 @@ export class DestinasiService {
   gunung = [
     {
       id: 1,
-      judul: " Gunung Sumbing, ",
+      judul: " Gunung Sumbing,Wonosobo",
       img1: "../../../assets/kategori/gunung/sumbing.jpg",
     },
     {
       id: 2,
-      judul: "Gunung Merbabu, ",
+      judul: "Gunung Merbabu,Boyolali",
       img1: "../../../assets/kategori/gunung/gm.jpg",
     },
     {
       id: 3,
-      judul: "Gunung Sindoro, ",
+      judul: "Gunung Sindoro,Wonosobo",
       img1: "../../../assets/kategori/gunung/gs.jpg",
     },
     {
       id: 4,
-      judul: "Gunung  Andong, ",
+      judul: "Gunung  Andong,Magelang",
       img1: "../../../assets/kategori/gunung/ga.jpg",
     },
     {
       id: 5,
-      judul: "Gunung Prau, ",
+      judul: "Gunung Prau,Wonosobo",
       img1: "../../../assets/kategori/gunung/gp.jpg",
     },
     {
       id: 6,
-      judul: "Gunung Lawu, ",
+      judul: "Gunung Lawu,Tawangmangu",
       img1: "../../../assets/kategori/gunung/gl.jpg"
     },
   ]
